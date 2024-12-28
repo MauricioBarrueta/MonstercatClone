@@ -1,0 +1,42 @@
+#side-menu {
+    background-color: var(--black);    
+    padding: 0 1em;
+    .offcanvas-header {
+        position: relative;
+        h5 {
+            width: 200px; padding-bottom: 1.5rem;
+            img { width: 100%; }
+        }
+        .btn-close { 
+            position: absolute; top: 30%; right: 5%; 
+            opacity: 1; scale: 1.5;
+            --bs-btn-close-bg: url('https://api.iconify.design/material-symbols:close.svg?color=%23F1F1F1')
+        }
+    }   
+    .menu {         
+        max-height: 370px; list-style: none; overflow-y: auto;
+        li {
+            margin: 15px 0;
+            a {
+                color: var(--antiFlashWhite) !important;
+                i { font-size: 12px; margin-top: -5px; }
+            }
+        }                
+    }
+    .offcanvas-bottom {
+        display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 18px;
+        padding: 1em 0 0 0;
+        a { font-weight: normal; }
+        .btn-group {
+            flex-basis: 100%; margin-top: 20px;
+            button {
+                flex: initial !important;
+                border-radius: 0; padding-inline: 1.5rem;
+                &:nth-child(1) { 
+                    border: 1px solid var(--antiFlashWhite); 
+                    &:hover { background-color: var(--antiFlashWhite); color: var(--black) !important; }
+                }
+            }
+        }
+    }
+}

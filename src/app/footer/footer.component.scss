@@ -1,0 +1,64 @@
+.navigation, .column, .footer-bottom { display: flex; flex-wrap: wrap; }
+footer {
+    margin-left: auto; margin-right: auto;
+    padding: 0 12em;
+    .navigation {
+        width: 100%; padding: 3em 0;
+        border-top: 2px solid var(--taupeGray); border-bottom: 2px solid var(--taupeGray);
+        .column {
+            flex: 1 1 calc(33.33% - 20%); align-content: flex-start; flex-direction: column;
+            text-align: left;   
+            .form-text { 
+                font-size: 14px; font-style: italic;
+                color: var(--antiFlashWhite); 
+            }
+            label, #email-input::placeholder, #submit-btn { color: var(--taupeGray) !important; }
+            .input-group {
+                border-bottom: 1px solid var(--taupeGray); margin-top: 15px;
+                input, button { border-radius: 0; border: 0; }
+                input {
+                    background: transparent; padding-left: 0;
+                    text-transform: none;
+                    &:focus { box-shadow: none; }  
+                    &::placeholder { font-size: 18px;  }      
+                } 
+                #submit-btn {
+                    &:hover { background-color: var(--lotion); color: var(--black) !important; }
+                }
+            }            
+        }
+    }
+    .footer-bottom {
+        flex-direction: row; justify-content: space-between; padding: 2em 0;
+        color: var(--antiFlashWhite);
+        span { font-size: 14px; font-style: italic; flex-grow: 1; }
+        .media-icons {
+            .icon { 
+                margin-inline: 7px; 
+                img { width: 24.1px; margin-top: -5px; }
+            }
+        }        
+        p {
+            width: 100%;
+            margin: 0; padding-top: 5em;
+            font-size: 12px; text-align: center; letter-spacing: 0; text-transform: none !important;            
+        }
+        .small-text { padding-top: 1em; }
+    }
+}
+@media screen and (max-width: 1280px) { footer { padding: 0 3em; } }
+@media screen and (max-width: 834px) { .media-icons { margin-top: 15px;} }
+@media screen and (max-width: 768px) {
+    footer { 
+        padding: 0 3em; 
+        .navigation {
+            flex-direction: column;
+            a, label { font-size: 14px; }
+            a { margin: 5px 0; }
+            label { margin-top: 50px; }
+        }
+        .footer-bottom {
+            span { font-size: 11px !important; }
+        }
+    } 
+}
