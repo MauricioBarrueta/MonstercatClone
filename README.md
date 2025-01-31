@@ -4,7 +4,8 @@
 
 🔗 https://monstercatclone.web.app/
 
-![Monstercat](https://github.com/user-attachments/assets/eb2c3a92-ca5a-4741-af2a-dff40cc0064e)
+
+![Monstercat](https://github.com/user-attachments/assets/5166da31-8079-413e-b713-8a180c5207a5)
 
 
 # MonstercatClone
