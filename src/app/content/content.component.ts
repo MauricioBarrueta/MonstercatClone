@@ -13,11 +13,13 @@ import { Title } from '@angular/platform-browser';
   providers: [ Title ]
 })
 export class ContentComponent {
+
+  artist: string = 'The Warning'
+  albumTitle: string = 'Keep Me Fed'
+  albumImg: string = 'https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c'
+  releasedDate: string = 'Jun 28, 2024'
   
   constructor(private title: Title) {
     this.title.setTitle(`${this.albumTitle} - Monstercat`)
   }
-
-  albumTitle: string = 'ERROR'
-  albumImg: string = 'https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d'
 }

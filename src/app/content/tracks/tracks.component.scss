@@ -7,17 +7,17 @@ table {
             width: 60px; height: 83px; align-content: center;
             padding: 1em 0.5rem; 
             font-size: 16px; letter-spacing: 1px; font-weight: bold; text-align: left;            
-            &:nth-child(2) { width: 75px; }
+            &:nth-child(2) { width: 70px; }
             .spinner-border {
                 --bs-spinner-width: 2.75rem; --bs-spinner-height: 2.75rem; scale: .5;
                 &:hover { border-color: var(--antiFlashWhite) !important; }
             }
             &:nth-child(3) {
-                width: 100%;
+                width: 85% !important;
                 display: flex; align-items: flex-start; flex-direction: column; justify-content: center;
                 small { font-size: 12px; }
             }
-            &:nth-child(4) { width: 85px; }
+            &:nth-child(4) { width: 80px; }
         }
     }
 }
