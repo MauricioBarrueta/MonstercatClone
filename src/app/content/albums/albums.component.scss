@@ -32,3 +32,10 @@
         }
     }    
 }
+@media screen and (max-width: 480px) {
+    .releases {
+        justify-content: center; margin-inline: 0;
+        .album { margin: 15px 0 !important;
+        }
+    }    
+}

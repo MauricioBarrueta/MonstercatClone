@@ -1,12 +1,12 @@
 @import url('https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended'); 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.thin-font, td { font-family: "Montserrat", sans-serif, FontAwesome; }
 
 * { 
     padding: 0; margin: 0; 
     box-sizing: border-box; font-family: "Monument Extended", "Helvetica", Arial, sans-serif, FontAwesome;
     &::before, &::after { box-sizing: border-box; }
 }
+.thin-font, td { font-family: "Montserrat", sans-serif, FontAwesome; }
 
 :root {
     --lotion: #fdfdfd; --antiFlashWhite: #F1F1F1; --dodgerBlue: #1e90ff; --onyx: #383838; --taupeGray: #898888; --black: #000;
@@ -33,4 +33,7 @@ ul, h1 { padding: 0; margin: 0; }
             font-size: 12px !important; padding: 1em 2em !important;
         }
     }
+}
+@media screen and (max-width: 480px) {
+    html, body { overflow-x: hidden; }    
 }

@@ -28,3 +28,14 @@ table {
         td { font-size: 15px !important; }
     }     
 }
+@media screen and (max-width: 480px) {
+    table {
+        tr {            
+            td {
+                width: fit-content !important; height: 75px !important;
+                font-size: 14px !important;
+                small { font-size: 11px !important; }
+            }
+        }
+    }    
+}
