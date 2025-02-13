@@ -1,10 +1,12 @@
-🇲🇽 Este sitio web hecho como parte de una práctica del sitio 'Frontend Practice' (www.frontendpractice.com/projects) se replicó un módulo de la página oficial de 'Monstercat', cuenta con un menú desplegable, botones de reproducción dinámicos, efectos del puntero, diseño adaptable acorde al sitio original, entre otras funciones que fueron replicadas, simulando un proyecto en donde únicamente se desarrolla el lado front end.
+🇲🇽 Este sitio web replica el módulo Release de la página oficial de 'Monstercat', cuenta con un menú desplegable, botones de reproducción dinámicos, efectos del puntero, diseño adaptable acorde al sitio original, entre otras funciones que fueron copiadas, simulando un proyecto en donde únicamente se desarrolla el lado front end.
 
-🇺🇸 This website made as part of a practice of the 'Frontend Practice' site (www.frontendpractice.com/projects) replicated a module of the official page of 'Monstercat', has a dropdown menu, dynamic play-pause buttons, hover effects, adaptive design according to the original site, among other functions that were replicated, simulating a project where only the front end side is developed.
+🇺🇸 This website replicates the Release module of the official 'Monstercat' website, with a drop-down menu, dynamic playback buttons, pointer effects, adaptive design according to the original site, among other functions that were copied, simulating a project where only the front end side is developed.
+
 
 🔗 https://monstercatclone.web.app/
 
-![Monstercat](https://github.com/user-attachments/assets/eb2c3a92-ca5a-4741-af2a-dff40cc0064e)
+
+![Monstercat](https://github.com/user-attachments/assets/5166da31-8079-413e-b713-8a180c5207a5)
 
 
 # MonstercatClone
