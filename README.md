@@ -1,13 +1,10 @@
-🇲🇽 Este sitio web replica el módulo Release de la página oficial de 'Monstercat', cuenta con un menú desplegable, botones de reproducción dinámicos, efectos del puntero, diseño adaptable acorde al sitio original, entre otras funciones que fueron copiadas, simulando un proyecto en donde únicamente se desarrolla el lado front end.
+🇲🇽 Sitio web desarrollado con Angular y TypeScript, SCSS y Bootstrap, publicado con Firebase Hosting. Basado en una práctica del sitio Frontend Practice y tomando como referencia el sitio Monstercat.
 
-🇺🇸 This website replicates the Release module of the official 'Monstercat' website, with a drop-down menu, dynamic playback buttons, pointer effects, adaptive design according to the original site, among other functions that were copied, simulating a project where only the front end side is developed.
-
+🇺🇸 Website developed with Angular and TypeScript, SCSS and Bootstrap, published with Firebase Hosting. Based on a practice from the Frontend Practice site and taking as reference the Monstercat site.
 
 🔗 https://monstercatclone.web.app/
 
-
-![Monstercat](https://github.com/user-attachments/assets/5166da31-8079-413e-b713-8a180c5207a5)
-
+![monstercat](https://github.com/user-attachments/assets/72c64857-7873-4b73-b23a-aa5d86804c1c)
 
 # MonstercatClone
 
