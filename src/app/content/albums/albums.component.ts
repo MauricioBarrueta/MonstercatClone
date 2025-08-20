@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class AlbumsComponent {
   releases$: any[] = [
     { cover: 'https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2', 
-      album: 'Escape the Mind',
+      album: 'Escape the Mind (EP)',
       year: '2015'
     },
     { cover: 'https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de', 
@@ -33,5 +33,9 @@ export class AlbumsComponent {
       album: 'Keep Me Fed',
       year: '2024'
     },
+    { cover: '/TWLAN.jpg', 
+      album: 'Live From Auditorio Nacional CDMX',
+      year: '2025'
+    }
   ]
 }

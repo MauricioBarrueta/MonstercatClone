@@ -1,17 +1,19 @@
+<div id="player"></div> <!-- YouTube IFrame API -->
 <table>
-    <tbody>
-        <tr class="d-flex" *ngFor="let track of tracksList; let i = index">
-            <td>{{track.num}}</td>
-            <td>
-                <button class="btn" [ngClass]="index === i && spinner ? 'spinner-border' : ''" [textContent]="index === i ? icon : '&#xf04b;'" 
-                    *ngIf="icon.includes('&#xf04b;');else pauseTmp" (click)="setIndex(i); play();"></button>
-                <ng-template #pauseTmp>
-                    <button class="btn" (click)="setIndex(i); icon = '&#xf04b;'" [textContent]="index === i ? icon : '&#xf04b;'"></button>
-                </ng-template>
-            </td>             
-            <td class="d-flex">{{track.name}}<small class="thin-font">{{track.artist}}</small></td>
-            <td>{{track.time}}</td>
-            <td style="cursor: pointer;">&#xf1e0;</td>
-        </tr>  
-    </tbody>
+  <tbody>
+    @for (track of tracksList; let i = $index; track $index) {
+      <tr class="d-flex">
+        <td>{{ track.num }}</td>
+        <td>
+          <button class="btn" [ngClass]="index === i && spinner ? 'spinner-border' : ''" [textContent]="index === i ? btnIcon : '\uf04b'" (click)="playPauseController(i)"></button>
+        </td>
+        <td class="d-flex">
+          {{ track.name }}
+          <small class="thin-font">{{ track.artist }}</small>
+        </td>
+        <td class="text-center">{{ track.time }}</td>
+        <td class="text-center cursor-pointer">&#xf1e0;</td>
+      </tr>
+    }
+  </tbody>
 </table>
