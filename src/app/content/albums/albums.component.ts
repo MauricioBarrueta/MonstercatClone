@@ -33,8 +33,8 @@ export class AlbumsComponent {
       album: 'Keep Me Fed',
       year: '2024'
     },
-    { cover: '/TWLAN.jpg', 
-      album: 'Live From Auditorio Nacional CDMX',
+    { cover: 'https://i.scdn.co/image/ab67616d0000b2731d014972e4c6ac8514d16348', 
+      album: 'Live From Auditorio Nacional, CDMX',
       year: '2025'
     }
   ]
