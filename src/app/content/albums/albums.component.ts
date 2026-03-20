@@ -9,33 +9,50 @@ import { Component } from '@angular/core';
 })
 export class AlbumsComponent {
   releases$: any[] = [
-    { cover: 'https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2', 
+    { 
+      cover: 'https://i.scdn.co/image/ab67616d0000b273ebd25082bf514bd05cc4cfd2', 
       album: 'Escape the Mind (EP)',
       year: '2015'
     },
-    { cover: 'https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de', 
+    { 
+      cover: 'https://i.scdn.co/image/ab67616d0000b27304a3dad60eb365aec55022de', 
       album: 'XXI Century Blood',
       year: '2017'
     },
-    { cover: 'https://i.scdn.co/image/ab67616d0000b273d5e8959e6099cccb868507aa', 
+    { 
+      cover: 'https://i.scdn.co/image/ab67616d0000b273d5e8959e6099cccb868507aa', 
       album: 'Queen of the Murder Scene',
       year: '2018'
     },
-    { cover: 'https://i.scdn.co/image/ab67616d0000b2732dc9d2a001627474dd17b8bb', 
+    { 
+      cover: 'https://i.scdn.co/image/ab67616d0000b2732dc9d2a001627474dd17b8bb', 
       album: 'MAYDAY (EP)',
       year: '2021'
     },
-    { cover: 'https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d', 
+    { 
+      cover: 'https://i.scdn.co/image/ab67616d0000b27309fe21cd518d989e0c31224d', 
       album: 'ERROR',
       year: '2022'
     },
-    { cover: 'https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c', 
+    { 
+      cover: 'https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c', 
       album: 'Keep Me Fed',
       year: '2024'
     },
-    { cover: 'https://i.scdn.co/image/ab67616d0000b2731d014972e4c6ac8514d16348', 
+    { 
+      cover: 'https://i.scdn.co/image/ab67616d0000b2731d014972e4c6ac8514d16348', 
       album: 'Live From Auditorio Nacional, CDMX',
       year: '2025'
+    },
+    {
+      cover: 'https://i.scdn.co/image/ab67616d0000b273cbcb8d24635386f33a868054',
+      album: 'Love To Be Loved (single)',
+      year: '2026'
+    },
+    {
+      cover: 'https://i.scdn.co/image/ab67616d0000b2736bc799c6c712870ffe1d1546',
+      album: 'Kerosene (single)',
+      year: '2026'
     }
   ]
 }

@@ -1,5 +1,5 @@
-import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { AfterViewInit, Component, Inject, PLATFORM_ID } from '@angular/core';
 
 /* Variable usada por la API de YouTube */
 declare var YT: any
@@ -11,7 +11,7 @@ declare var YT: any
   styleUrl: './tracks.component.scss'
 })
 
-export class TracksComponent implements OnInit {
+export class TracksComponent implements AfterViewInit {
 
   tracksList: any[] = [
     {num: '1', name: 'Six Feet Deep', artist: 'The Warning', time: '3:00', ytId: 'BKOlJg72lag'},
@@ -34,28 +34,41 @@ export class TracksComponent implements OnInit {
   player: any
   playerReady: boolean = false
 
-  ngOnInit() {    
-    this.loadYouTubeAPI()
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
+  ngAfterViewInit(): void {
+    if(isPlatformBrowser(this.platformId)) {
+      this.loadYouTubeAPI()
+    }
   }
 
-  /* Se carga la API de YouTube */
+  /* Se carga la API de YouTube */ 
   loadYouTubeAPI() {
-    const tag = document.createElement('script');
+    /* Evita que se recargue la API */
+    if ((window as any).YT) {
+      this.initPlayer()
+      return
+    }
+    const tag = document.createElement('script')
     tag.src = 'https://www.youtube.com/iframe_api'; //* Aquí se define la variable YT
     document.body.appendChild(tag);
-    /* Se crea el reproductor */
+
     (window as any).onYouTubeIframeAPIReady = () => {
-      this.player = new YT.Player('player', {
-        height: '0', width: '0',
-        events: {
-          onReady: (event: any) => {
-            this.playerReady = true
-            this.player.setVolume(100)
-          },
-          onStateChange: (event: any) => this.onPlayerStateChange(event)
-        }
-      });
+      this.initPlayer()
     };
+  }
+
+  initPlayer() {
+    this.player = new YT.Player('player', {
+      height: '0',  width: '0',
+      events: {
+        onReady: () => {
+          this.playerReady = true
+          this.player.setVolume(100)
+        },
+        onStateChange: (event: any) => this.onPlayerStateChange(event)
+      }
+    });
   }
 
   /* Se obtiene y asigna el índice (canción) seleccionado */
