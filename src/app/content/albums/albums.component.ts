@@ -44,15 +44,15 @@ export class AlbumsComponent {
       album: 'Live From Auditorio Nacional, CDMX',
       year: '2025'
     },
-    {
-      cover: 'https://i.scdn.co/image/ab67616d0000b273cbcb8d24635386f33a868054',
-      album: 'Love To Be Loved (single)',
-      year: '2026'
-    },
-    {
-      cover: 'https://i.scdn.co/image/ab67616d0000b2736bc799c6c712870ffe1d1546',
-      album: 'Kerosene (single)',
-      year: '2026'
-    }
+    // {
+    //   cover: 'https://i.scdn.co/image/ab67616d0000b273cbcb8d24635386f33a868054',
+    //   album: 'Love To Be Loved (single)',
+    //   year: '2026'
+    // },
+    // {
+    //   cover: 'https://i.scdn.co/image/ab67616d0000b2736bc799c6c712870ffe1d1546',
+    //   album: 'Kerosene (single)',
+    //   year: '2026'
+    // }
   ]
 }
