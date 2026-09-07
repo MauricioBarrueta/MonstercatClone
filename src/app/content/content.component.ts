@@ -15,9 +15,9 @@ import { Title } from '@angular/platform-browser';
 export class ContentComponent {
 
   artist: string = 'The Warning'
-  albumTitle: string = 'Keep Me Fed'
-  albumImg: string = 'https://i.scdn.co/image/ab67616d0000b27393c50048dce0f88071728c8c'
-  releasedDate: string = 'Jun 28, 2024'
+  albumTitle: string = "Everything's Falling"
+  albumImg: string = 'https://i.scdn.co/image/ab67616d0000b273bd5120648a1dd04dab5d3a84'
+  releasedDate: string = 'Ago. 28, 2026'
   
   constructor(private title: Title) {
     this.title.setTitle(`${this.albumTitle} - Monstercat`)

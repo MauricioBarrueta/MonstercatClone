@@ -2,6 +2,11 @@
     <div class="album" *ngFor="let album of releases$">
         <img class="cover" [src]="album.cover" alt="">
         <p class="name">{{album.album}}</p>
-        <p class="date thin-font">{{album.year}}</p>
+        <p class="date thin-font">
+            @if (album.type === 'EP') {
+                <span class="thin-font">{{ album.type }} •</span>
+            }
+            {{album.year}}
+        </p>
     </div>
 </div>

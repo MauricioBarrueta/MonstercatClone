@@ -14,18 +14,18 @@ declare var YT: any
 export class TracksComponent implements AfterViewInit {
 
   tracksList: any[] = [
-    {num: '1', name: 'Six Feet Deep', artist: 'The Warning', time: '3:00', ytId: 'BKOlJg72lag'},
-    {num: '2', name: 'S!CK', artist: 'The Warning', time: '3:13', ytId: 'BCaYxNpeN3A'},
-    {num: '3', name: 'Apologize', artist: 'The Warning', time: '3:42', ytId: 'VoxxvAu40Gw'},
-    {num: '4', name: 'Qué Más Quieres', artist: 'The Warning', time: '3:05', ytId: 'auRdzLcdyx4'},
-    {num: '5', name: 'MORE', artist: 'The Warning', time: '3:08', ytId: 'SvdyemWt_Zc'},
-    {num: '6', name: 'Escapism', artist: 'The Warning', time: '3:37', ytId: 'ZaJ23iIwFMU'},
-    {num: '7', name: 'Satisfied', artist: 'The Warning', time: '3:10', ytId: 'sEBIh48HrH8'},
-    {num: '8', name: 'Burnout', artist: 'The Warning', time: '3:25', ytId: 'qPrPXHQCxvA'},
-    {num: '9', name: 'Sharks', artist: 'The Warning', time: '3:09', ytId: 'rnbH_TUsnwo'},
-    {num: '10', name: 'Hell You Call A Dream', artist: 'The Warning', time: '2:57', ytId: 'GEFUzXeS3N4'},
-    {num: '11', name: 'Consume', artist: 'The Warning', time: '3:08', ytId: '7idyzgKqts4'},
-    {num: '12', name: 'Automatic Sun', artist: 'The Warning', time: '3:11', ytId: 'kv5e1OYCrwA'}    
+    {num: '1', name: 'Ritual', artist: 'The Warning', time: '3:24', ytId: 'X4NfZBUKlzM'},
+    {num: '2', name: 'Perfect Daughter', artist: 'The Warning', time: '3:25', ytId: 'ZNCbLKE3wcQ'},
+    {num: '3', name: "Everything's Falling", artist: 'The Warning', time: '3:50', ytId: '6PFfhPE686A'},
+    {num: '4', name: 'Why Do You Like It When I Cry?', artist: 'The Warning', time: '3:16', ytId: '2NYRgSlAOBw'},
+    {num: '5', name: 'Bite My Tongue', artist: 'The Warning', time: '3:20', ytId: 'XqfbcQCl9xk'},
+    {num: '6', name: 'Kill Or Be Killed', artist: 'The Warning', time: '3:03', ytId: 'sdlJPAW2xvc'},
+    {num: '7', name: 'Ego', artist: 'The Warning', time: '2:54', ytId: 'o4Q6k5xUX2o'},
+    {num: '8', name: 'Bloodsport', artist: 'The Warning', time: '3:19', ytId: 'ieup-9J6qw4'},    
+    {num: '9', name: 'Break', artist: 'The Warning', time: '3:13', ytId: 'FNqN5VIkcbM'},
+    {num: '10', name: 'Bruises', artist: 'The Warning', time: '3:09', ytId: '_cIeca1u7ks'},
+    {num: '11', name: 'Waste Your Time On Me', artist: 'The Warning', time: '2:54', ytId: 'agsB1YcbcCo'},
+    {num: '12', name: 'Kerosene', artist: 'The Warning', time: '3:26', ytId: '7dTLCogC_EI'}    
   ] 
   
   btnIcon: string = '\u{f04b}'
