@@ -1,6 +1,6 @@
-🇲🇽 Sitio web desarrollado con Angular y TypeScript, SCSS y Bootstrap, publicado con Firebase Hosting. Basado en una práctica del sitio Frontend Practice y tomando como referencia el sitio Monstercat.
+🇲🇽 Sitio web desarrollado con Angular y TypeScript, SCSS y Bootstrap, publicado con Firebase Hosting, basado en una práctica de Frontend Practice y tomando como referencia el sitio de Monstercat. Implementa la API de YouTube para la reproducción de audio.
 
-🇺🇸 Website developed with Angular and TypeScript, SCSS and Bootstrap, published with Firebase Hosting. Based on a practice from the Frontend Practice site and taking as reference the Monstercat site.
+🇺🇸 Website developed with Angular and TypeScript, using SCSS and Bootstrap, deployed on Firebase Hosting, based on a Frontend Practice challenge and inspired by the Monstercat website. Implements the YouTube API for audio playback.
 
 🔗 https://monstercatclone.web.app/
 
